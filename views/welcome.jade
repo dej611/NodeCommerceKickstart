@@ -1,0 +1,37 @@
+extends layout
+// Usiamo layout.jade come punto di partenza e ne
+// arricchiamo i vari 'blocchi'
+
+append css
+  // Carichiamo il CSS per la pagina specifica 
+  link(rel='stylesheet', href='/css/app.css')
+
+append extra
+  // Impostiamo il titolo della pagina
+  title 'Benvenuto!'
+
+// .qualcosa è una div con la classe 'qualcosa'
+// #qualcosa è un div con l'id 'qualcosa'
+// se si vuole qualcosa diverso da un div, basta specificarlo:
+// p, span, ul, ...
+// Ref: https://github.com/visionmedia/jade#readme
+append contenutoPagina
+  // Fonte Template:
+  // http://twitter.github.com/bootstrap/examples/carousel.html
+  .navbar-wrapper
+    .container
+      .navbar.navbar-inverse
+        .navbar-inner
+          button.btn.btn-navbar(data-target='.nav-collapse', data-toggle='collapse', type='button')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.brand(href='#') App!
+          .nav-collapse.collapse
+            ul.nav
+              li.active
+                a(href='#') Home
+              li
+                a(href='/prodotti') Catalogo
+              li
+                a(href='/carrello') Carrello

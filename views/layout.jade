@@ -1,0 +1,17 @@
+doctype 5
+html(lang="en")
+  head
+    block css
+      // Bootstrap CSS 
+      link(rel='stylesheet', href='/css/bootstrap.min.css')
+      link(rel='stylesheet', href='/css/bootstrap-responsive.min.css')
+    block extra
+  body
+    block contenutoPagina
+    // Carichiamo gli script alla fine
+    // così la pagina verrà mostrata più velocemente...
+    block scripts
+      // jQuery
+      script(src='/js/jquery-1.9.1.min.js')
+      // Plugin Bootstrap
+      script(src='/js/bootstrap.min.js')
