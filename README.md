@@ -21,7 +21,7 @@ E-Commerce sample site made with Node.js
 
 * Apri il browser e scrivi:
 
-  ```http://localhost:2013```
+  ``` http://localhost:2013/ ```
 
 * Modifica l'app!
 
