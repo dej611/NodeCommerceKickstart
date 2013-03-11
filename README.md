@@ -11,9 +11,12 @@ E-Commerce sample site made with Node.js
 
 * Estrai il contenuto del file nella directory `Shop`
 
-* Scrivi alla console: `npm install`
+* Per installare tutto il necessario per funzionare, scrivi al terminale:
+  ```npm install```
 
-* Avvia il server scrivendo alla console: `node shop`
+* Avvia il server scrivendo al terminale:
+  ```node shop```
 
-* Apri il browser e scrivi: `http://localhost:2013`
+* Apri il browser e scrivi:
+  ```http://localhost:2013```
 
