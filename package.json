@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "author": "Dej611 <dej611@hotmail.com>",
   "description": "a simple e-commerce site made with Node.js",
-  "contributors": [ 
-  ],
+  "contributors": [],
   "repository": {
     "type": "git",
     "url": "https://github.com/dej611/nodeCommerceKickstart.git"
@@ -15,14 +14,15 @@
     "shop",
     "template"
   ],
-  "dependencies" : {
-    "express"   :  "3.x",
-    "backbone" :  "0.9.x",
-    "jade": "*"
+  "dependencies": {
+    "express": "3.x",
+    "backbone": "0.9.x",
+    "jade": "*",
+    "underscore": "~1.4.4"
   },
   "devDependencies": {
-    "mocha"    :  "*"
-  },  
+    "mocha": "*"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=0.8"
